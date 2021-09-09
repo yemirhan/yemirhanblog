@@ -20,7 +20,7 @@ const { BLOG_URL, CONTENT_API_KEY } = process.env;
 //   return { props: { posts } };
 // };
 
-const Home: React.FC<> = (props) => {
+const Home: React.FC = (props) => {
   // const { posts } = props;
   return (<div>
     <Head>
